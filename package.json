@@ -1,0 +1,16 @@
+{
+  "name": "scub111-common",
+  "version": "1.0.0",
+  "description": "Common npm package",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "scripts": {
+    "build": "rimraf lib && tsc"
+  },
+  "author": "Cameron Nokes",
+  "license": "MIT",
+  "devDependencies": {
+    "rimraf": "^3.0.0",
+    "typescript": "^3.6.4"
+  }
+}
