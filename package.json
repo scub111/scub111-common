@@ -1,6 +1,6 @@
 {
   "name": "scub111-common",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Common npm package",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
@@ -10,7 +10,15 @@
   "author": "Cameron Nokes",
   "license": "MIT",
   "devDependencies": {
+    "@types/fs-extra": "^8.0.1",
+    "@types/mkdirp": "^0.5.2",
     "rimraf": "^3.0.0",
     "typescript": "^3.6.4"
+  },
+  "dependencies": {
+    "fs": "0.0.1-security",
+    "fs-extra": "^8.1.0",
+    "mkdirp": "^0.5.1",
+    "path": "^0.12.7"
   }
 }

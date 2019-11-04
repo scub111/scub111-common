@@ -1,3 +1,3 @@
-export const commonTest = () => {
-  console.log('test');
-}
+export * from './fileUtils';
+export * from './processUtils';
+export * from './timeUtils';
